@@ -39,24 +39,24 @@ db.connect(err => {
         )
     .then(function(answer){
         switch(answer.action){
-            case 'View all departments':
+            case 'View all Departments':
                 viewDepartments();
                 break;
-            case 'View all roles':
+            case 'View all Roles':
                 viewRoles();
                 break;
-            case 'View all employees':
+            case 'View all Employees':
                 viewEmployees();
                 break;
-            case 'Add a department':
+            case 'Add a New Department':
                 addDepartment();
                 break;
-            case 'Add a role':
+            case 'Add a New Role':
                 addRoles();
                 break;
-            case 'Add an employee':
+            case 'Add a New Employee':
                 addEmployee();
-            case 'Update employee roles':
+            case 'Update Employee Roles':
         }
     })
 };
