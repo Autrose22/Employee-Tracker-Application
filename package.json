@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Autrose22/Employee-Tracker-Application#readme",
   "dependencies": {
+    "console.table": "^0.10.0",
     "inquirer": "^8.2.2",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3"
